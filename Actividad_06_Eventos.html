@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--Llnear Title y Metadaotos-->
+  <title>Unidad 3 | Actividad 06</title>
+  <link rel="icon" type="image/x-icon" href-"favicon.ico">
+  <meta charset-"utf-8">
+  <meta name autor="Autor" content="Diego Alberto Montante Tapia">
+  <meta name="fecha" content="12 de mayo de 2025">
+  <meta name="Descripcion" content="Javascript">
+  <style>
+    p { color: limegreen; background-color: black; border: crimson 2px dashed;}
+  </style>
+  <script>
+    function funcionClick () { document.getElementById("varParrafo").innerHTML += "Hola mundo con Click!!!<br>";}
+    function funcionDoble (){document.getElementById("varParrafo").innerHTML += "Hola mundo con Click !!!<br>";}
+    function funcionValidar (){if (navigator.cookieEnabled ==true) {alert("Bienvenido a mi sitio web!!1");}}
+    function funcionOver(obj) {obj.style.backgroundColor = "Navy";}
+    function funcionOut (obj) {obj.style.backgroundColor = "black";}
+    function cambiaColor(color) {document.body.style.backgroundColor = color;}
+  </script>
+  </head>
+  <body onload="funcionValidar()">
+    <h1>Unidad 3 | Actividad 06 :: Tema (Javascript - Eventos)</h1>
+    <h3>Presiona el boton para ejecutar el codigo</h3>
+    <button onclick="funcionClick()" ondblclick="funcionDoble()">Accion...</button>
+    <p id="varParrafo" onmouseover="funcionOver(this)" onmouseout="funcionOut(this)"></p>
+    <fieldset>
+      <legend>Elige un color fondo...</legend>
+      <button onclick="cambiaColor('SteelBlue')">Azul</button>
+      <button onclick="cambiaColor('crimson')">Rojo</button>
+      <button onclick="cambiaColor ('SeaGreen')">Verde</button>
+  </fieldset>
+</body>
+</html>
