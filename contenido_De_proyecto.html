@@ -15,10 +15,10 @@
     <style>
         body {
             font-family: 'IM Fell English SC', serif;
-            background-image: url('logo.jpg');
-            background-size: cover;
-            background-position: center;
-            color: black;
+            background-image: url('Abstergo3.jpg'); 
+            background-size: 100%;
+            background-position: top center;
+            color: black; 
         }
         .shadow:hover {
             background: rgba(0, 0, 0, 0.75);
@@ -113,7 +113,7 @@
       twttr.widgets.load();
     }
   });
- 
+  
   // Fallback in case DOMContentLoaded already fired
   if (document.readyState === 'complete' || document.readyState === 'interactive') {
     if (window.twttr && twttr.widgets) {
@@ -130,17 +130,30 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">Abstergo Industries</a>
-     
+      <a class="navbar-brand" href="https://fiurerr.github.io/Cover.html">Abstergo Industries</a>
+      
       <!-- Botón de menú para pantallas pequeñas -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-     
+      
       <!-- Menú colapsable -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-         
+
+ <!-- Dropdown de contenido principal -->
+        
+<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Iconicos</a>
+            <ul class="dropdown-menu" style="border-top: 5px solid white;">
+              <li><a class="dropdown-item" href="https://fiurerr.github.io/AS-.html">Assasin's Creed I</a></li>
+              <li><a class="dropdown-item" href="https://fiurerr.github.io/reve.html">Assasin's Creed: Revelations</a></li>
+              <li><a class="dropdown-item" href="https://fiurerr.github.io/Odyssey.html">Assasin's Creed: Odyssey</a></li>
+            </ul>
+          </li>
+
+
+          
           <!-- Dropdown de Juegos -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Juegos</a>
@@ -166,7 +179,7 @@
               <li><a class="dropdown-item" href="https://store.steampowered.com/app/3159330/Assassins_Creed_Shadows/">Assassin’s Creed Shadows</a></li>
             </ul>
           </li>
-         
+          
           <!-- Dropdown de Personajes -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Personajes</a>
@@ -189,7 +202,7 @@
               <li><a class="dropdown-item" href="https://assassinscreed.fandom.com/wiki/Special:Search?scope=internal&navigationSearch=true&query=Naoe">Naoe</a></li>
             </ul>
           </li>
-         
+          
           <!-- Dropdown de Facciones -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Facciones Pricipales</a>
@@ -198,14 +211,14 @@
               <li><a class="dropdown-item" href="https://assassinscreed.fandom.com/es/wiki/Orden_de_los_Asesinos">Hermandad de los Asesinos</a></li>
             </ul>
           </li>
- 
+  
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Películas</a>
             <ul class="dropdown-menu" style="border-top: 5px solid white;">
               <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=hPRV9Hx4vVI">Assassins Creed</a></liZ
             </ul>
           </li>
-         
+          
           <!-- Enlaces adicionales -->
           <li class="nav-item"><a class="nav-link active" aria-current="page"   href="contenido.html"> Contenido </a></li>
           <li class="nav-item"><a class="nav-link" href="referencia.html">  Referencias </a></li>
@@ -219,62 +232,7 @@
 
 <main>
 
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-    <div class="carousel-indicators shadow">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img width="100%" height = "100%" src="1.jpg">
-        <div class="container">
-          <div class="carousel-caption text-start" style="background: rgba(0, 0, 0, 0.75); border-radius: 20px;">
-            <h1>Sagas Harry Potter y Animales Fantasticos</h1>
-            <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img width="100%" height = "100%" src="2.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="background: rgba(0, 0, 0, 0.75); border-radius: 20px;">
-            <h1>Harry Potter</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img width="100%" height = "100%" src="3.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="background: rgba(0, 0, 0, 0.75); border-radius: 20px;">
-            <h1>casas Hogwarts</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img width="100%" height = "100%" src="4.jpg">
-        <div class="container">
-          <div class="carousel-caption" style="background: rgba(0, 0, 0, 0.75); border-radius: 20px;">
-            <h1> Castillo Hogwarts</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev shadow" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next shadow" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-
+ 
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -284,7 +242,17 @@
     <div class="row featurette">
       <div class="col-md-6">
         <h2 class="featurette-heading fw-normal lh-1">Sitio web oficial</h2>
-        <p class="lead">Sitio Fan de Assassin's Creed.</p>
+        <p class="lead"><br></br>🔍 ¿Te apasiona el universo de Assassin's Creed? 🌍💥
+
+Si eres un fanático de la saga o estás comenzando a explorar este vasto mundo lleno de historia, acción y secretos, ¡te invitamos a descubrir nuestra Wiki oficial de Assassin's Creed! ✨📖
+
+Aquí encontrarás detalles exclusivos, información sobre personajes, localizaciones históricas, y todo lo que necesitas saber sobre cada entrega, desde Altair hasta Kassandra y más allá. 🗡️
+
+🔹 Sumérgete en cada rincón del universo de los Asesinos y los Templarios.
+🔹 Explora cada historia y personaje a fondo.
+🔹 Mantente al día con las últimas noticias, actualizaciones y contenido adicional.
+
+👉 Da el siguiente paso en tu viaje hacia el conocimiento profundo de Assassin's Creed y acompáñanos en la Wiki oficial. ¡La historia está esperando ser descubierta! 🏛️⚔️</p>
       </div>
       <div class="col-md-6">
         <iframe src="https://assassinscreed.fandom.com/wiki/Assassin%27s_Creed_Wiki" width="450px" height="550px"></iframe>
@@ -298,9 +266,9 @@
         <h2 class="featurette-heading fw-normal lh-1">TikTok</h2>
         <p class="lead">Conviértete en una letal asesina shinobi y en un poderoso y legendario samurái en el Japón feudal. El Tráiler Oficial de Estreno Mundial de Assassin's Creed Shadows ya está disponible en YouTube
       <div class="col-md-6 order-md-1">
-        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ubisoftlatam/video/7369307201011223813?q=assassins%20creed%20ubisoft&t=1744339604005" data-video-id="7369307201011223813" style="max-width: 605px;min-width: 325px;" >
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ubisoftlatam/video/7369307201011223813?q=assassins%20creed%20ubisoft&t=1744339604005" data-video-id="7369307201011223813" style="max-width: 605px;min-width: 325px;" > 
         <a title="Assassins Creed Shadows" target="_blank" href="https://www.tiktok.com/tag/AssassinsCreedShadows">#assassinscreedshadows</a>  </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-       
+        
       </div>
     </div>
 
@@ -309,12 +277,15 @@
     <div class="row featurette">
       <div class="col-md-6">
         <h2 class="featurette-heading fw-normal lh-1">Facebook</h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <p class="lead">"🔪🌍 La lucha continúa. En Assassin's Creed, cada época tiene su propio héroe, pero la batalla entre los Asesinos y los Templarios nunca termina. Vive el pasado y escribe el futuro, ya sea en las calles de París, los templos de Egipto o las montañas vikingas.
+⠀
+💬 ¿Quién es tu Assassin favorito? Déjanos tu comentario y comparte tu momento más épico de la saga. #AssassinsCreed"
+
+Referencia de Enlace:
+"Visita nuestra página oficial para más detalles y contenido exclusivo. ¡No te pierdas la última actualización de Assassin's Creed! ➡️ [Enlace a la página de Facebook]."</p>
       </div>
       <div class="col-md-6">
-        <iframe src="https://www.facebook.com/photo/?fbid=1209231730561365&set=a.820198736131335" width="450px" height="850px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-      </div>
+       <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02uQCr8fb27ExjCF8yHye7qGAbws6YnwewbCDRoVixveF3jLJfZDRyyYUnxr5GbNbPl%26id%3D100063849740301&show_text=true&width=500" width="500" height="679" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>    </div>
     </div>
 
     <hr class="featurette-divider">
@@ -322,15 +293,15 @@
     <div class="row featurette">
       <div class="col-md-6 order-md-2">
         <h2 class="featurette-heading fw-normal lh-1">Instagram</h2>
-        <p class="lead">Your Instagram post description here.</p>
+        <p class="lead">🌟 Sumérgete en la historia épica de la Hermandad. Desde los templos antiguos hasta las ciudades modernas, Assassin's Creed te invita a conocer la lucha eterna entre Asesinos y Templarios. ¿Cuál es tu momento favorito de la saga? 🔪 #AssassinsCreed #HistoriaViva #EternoConflicto #JuegoDeLeyendas".</p>
       </div>
       <div class="col-md-6 order-md-1">
         <!-- Instagram Post -->
-        <blockquote
-          class="instagram-media"
-          data-instgrm-captioned
-          data-instgrm-permalink="https://www.instagram.com/p/DIBw0Wmv6MI/"
-          data-instgrm-version="14"
+        <blockquote 
+          class="instagram-media" 
+          data-instgrm-captioned 
+          data-instgrm-permalink="https://www.instagram.com/p/DIBw0Wmv6MI/" 
+          data-instgrm-version="14" 
           style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 10px 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"
         >
           <div style="padding:16px;">
@@ -348,10 +319,10 @@
     <div class="row featurette">
     <div class="col-md-6">
       <h2 class="featurette-heading fw-normal lh-1">Twitter</h2>
-      <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      <p class="lead">"🔪 Assassin's Creed no es solo un juego, es una leyenda que te lleva a través del tiempo. Desde los secretos del Antiguo Egipto hasta los vikingos del norte, la lucha entre Asesinos y Templarios sigue viva. ¿Cuál es tu título favorito? #AssassinsCreed #HistoriaÉpica #AsesinosVsTemplarios"</p>
     </div>
     <div class="col-md-6">
-      <blockquote class="twitter-tweet"><p lang="zxx" dir="ltr"><a href="https://x.com/assassinscreed/status/1562832184880246784/photo/1">pic.twitter.com/yoN80Mobdk</a></p>&mdash; Assassins Creed(@assassinscreed) <a href="https://x.com/assassinscreed/status/1562832184880246784/photo/1">August 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Where other men blindly follow the truth... <br>Remember, nothing is true. <a href="https://t.co/eLyp4VN9Gw">https://t.co/eLyp4VN9Gw</a> <a href="https://t.co/9F57EpCSzY">pic.twitter.com/9F57EpCSzY</a></p>&mdash; Assassin&#39;s Creed (@assassinscreed) <a href="https://twitter.com/assassinscreed/status/1904669672995254571?ref_src=twsrc%5Etfw">March 25, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
 
@@ -365,7 +336,7 @@
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2025 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; 2025 Abstergo, Industries. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
