@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Templarios</title>
+  <link rel="icon" type="image/x-icon" href="favicon1.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+  <style>
+    #main-content {
+      display: none;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    #loader {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    dotlottie-player {
+      width: 40%;
+      height: auto;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-image: url('Abstergo3.jpg'); /* Cambia la imagen de fondo */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-attachment: fixed;
+      line-height: 1.6;
+    }
+    section {
+      background-color: rgba(0,0,0,0.75);
+      margin: 25px 15px;
+      padding: 30px 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #cfcfcf;
+      text-shadow: 0 0 6px #000;
+      margin-bottom: 20px;
+    }
+    h2 {
+      border-bottom: 3px solid #6c757d;
+      padding-bottom: 12px;
+      margin-top: 0;
+    }
+    p, ul, ol {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1rem;
+      color: #ddd;
+    }
+    ul, ol {
+      margin-bottom: 15px;
+    }
+    ul li, ol li {
+      margin-bottom: 6px;
+    }
+    table {
+      width: 90%;
+      max-width: 700px;
+      margin: 20px auto;
+      border-collapse: collapse;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    }
+    th, td {
+      padding: 10px 15px;
+      border: 1px solid #666;
+      background-color: rgba(30,30,30,0.9);
+      color: #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #222;
+      font-weight: 600;
+    }
+    iframe {
+      display: block;
+      max-width: 560px;
+      width: 90%;
+      height: 315px;
+      margin: 25px auto 0 auto;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    }
+    img {
+      border-radius: 12px;
+      margin: 10px 8px;
+      filter: drop-shadow(0 0 5px rgba(0,0,0,0.8));
+      object-fit: cover;
+      vertical-align: middle;
+    }
+    /* Imagenes excepto jugabilidad1 y jugabilidad2 - más pequeñas */
+    section img:not([alt="Gameplay 1"]):not([alt="Gameplay 2"]) {
+      width: 30%;
+      max-width: 250px;
+      height: auto;
+    }
+    /* Jugabilidad1 y jugabilidad2 mantienen tamaño mayor */
+    img[alt="Gameplay 1"],
+    img[alt="Gameplay 2"] {
+      width: 45%;
+      max-width: 500px;
+      height: auto;
+    }
+    a {
+      color: #69c0ff;
+      text-decoration: none;
+      display: block;
+      max-width: 700px;
+      margin: 5px auto;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #aaddff;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      section {
+        padding: 20px 15px;
+      }
+      img[alt="Gameplay 1"],
+      img[alt="Gameplay 2"],
+      section img:not([alt="Gameplay 1"]):not([alt="Gameplay 2"]) {
+        width: 90%;
+        max-width: 100%;
+        margin: 12px auto;
+        display: block;
+      }
+      table {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="loader">
+    <dotlottie-player 
+      src="https://lottie.host/90385d3d-9986-42e5-bc8e-ecc446fe8588/u2Nj8C6Xrr.lottie" 
+      background="transparent" speed="1" loop autoplay>
+    </dotlottie-player>
+  </div>
+  <div id="main-content">
+    <!-- Aquí envuelvo el h1 con un enlace -->
+    <header><a href="https://fiurerr.github.io/contenido_De_proyecto.html" target="_blank"><h1>Assassin's Creed</h1></a></header>
+
+    <section>
+      <h2>Historia de los templarios</h2>
+      <p>En Assassin’s Creed, los <b>Templarios</b> son una organización secreta que busca imponer
+        el orden y el control sobre la humanidad, en contraste con los Asesinos, que defienden
+        la libertad individual.
+    </p>
+    <p>
+    los Templarios han existido desde tiempos antiguos bajo diferentes nombres, evolucionando
+    hasta convertirse en una organización global que opera en las sombras.
+
+    </p>
+    <h2>Historia y proposito</h2>
+    <ul>
+        <li><b>Origenes:</b> En la saga, los Templarios evolucionaron en la Orden de los 
+        Antiguos, una organizacion que existia desde los tiempos remotos</li>
+        <li><b>Objetivo:</b> Creen que la humanidad necesita ser guiada por una elite
+        iluminada para evitar el caos</li>
+        <li><b>Fragmentos del Edén:</b> Buscan estos artefactos creados por los ISU,
+        una civilizacion avanzada. Los templarios los buscaban para controlar la mente humana
+        y establecer su vision de paz</li>
+    </ul>
+    <h2>Conflicto con los Asesinos</h2>
+        <div class="container text-center my-4">
+ <div class="container text-center my-4">
+  <div class="row justify-content-center">
+    <div class="col-md-5">
+      <img src="Asesinos.jpg" alt="Asesino" class="img-fluid rounded" style="max-height: 300px; width: auto;" />
+    </div>
+    <div class="col-md-5">
+      <img src="Enemigos.jpeg" alt="Templario" class="img-fluid rounded" style="max-height: 300px; width: auto;" />
+    </div>
+  </div>
+</div>
+    <ul>
+        <li>La lucha entre Asesinos y templarios ha durado siglos,  
+    <a href="https://es.wikipedia.org/wiki/Tercera_cruzada">desde la época de Altaïr</a> hasta la era moderna.</li>
+        <li>Mientras los Asesinos creen en el libre albedrío, los Templarios 
+            ven la libertad como un obstaculo para la estabilidad.</li>
+    </ul>
+    <p>Los Templarios creen que el control es esencial para la estabilidad, mientras que los Asesinos
+     defienden la libertad como el camino hacia el verdadero progreso.</p>
+             <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-fjir{background-color:#343434;color:#ffffff;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-fjir">Aspecto</th>
+    <th class="tg-fjir">Templarios</th>
+    <th class="tg-fjir">Asesinos</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-fjir">Objetivo<br>Principal</td>
+    <td class="tg-fjir">Imponer orden y<br>control para la <br>paz</td>
+    <td class="tg-fjir">Defender el libre<br>albedrío y la libertad</td>
+  </tr>
+  <tr>
+    <td class="tg-fjir">Filosofia</td>
+    <td class="tg-fjir">"La paz se logra<br>con el dominio"</td>
+    <td class="tg-fjir">"Nada es verdad,<br>todo está permitido"</td>
+  </tr>
+  <tr>
+    <td class="tg-fjir">Metodo</td>
+    <td class="tg-fjir">Usar poder<br>político y <br>tecnologia </td>
+    <td class="tg-fjir">Operar desde las<br>sombras con <br>sigilo </td>
+  </tr>
+  <tr>
+    <td class="tg-fjir">Uso de <br>artefactos</td>
+    <td class="tg-fjir">Manipular la<br>humanidad con los<br>fragmentos del<br>Edén</td>
+    <td class="tg-fjir">Proteger los <br>artefactos y <br>evitar su abuso</td>
+  </tr>
+  <tr>
+    <td class="tg-fjir">Organización <br>moderna</td>
+    <td class="tg-fjir">Abstergo<br>Industries </td>
+    <td class="tg-fjir">Hermandad oculta <br>de los asesinos </td>
+  </tr>
+  <tr>
+    <td class="tg-fjir">Liderazgo</td>
+    <td class="tg-fjir">Jerarquía estricta<br>con un Gran Maestre</td>
+    <td class="tg-fjir">Estructura<br>descentralizada <br>sin lideres absolutos</td>
+  </tr>
+</tbody></table>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R4-tQoJAiWk?si=WP7YlBR9DtbZb89V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <a href="https://lamazmorradelfriki.com/assassins-creed-la-historia-completa-del-isu/" target="_blank" rel="noopener noreferrer">Los USI</a>
+      <a href="https://assassinscreed.fandom.com/es/wiki/Frutos_del_Ed%C3%A9n" target="_blank" rel="noopener noreferrer">Frutos del Edén</a>
+      <a href="https://assassinscreed.fandom.com/es/wiki/Gran_Maestro" target="_blank" rel="noopener noreferrer">Gran Maestre</a>
+
+    </section>
+
+  <script>
+    window.onload = () => {
+      setTimeout(() => {
+        document.getElementById('loader').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+      }, 2600);
+    };
+  </script>
+</body>
+</html>
